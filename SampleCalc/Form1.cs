@@ -28,7 +28,7 @@ namespace SampleCalc
         }
 
         private void btn1_Click(object sender, EventArgs e)
-        {
+        {//test12345
             stringBuilder.Append(btn1.Text);
             txtValue.Text = stringBuilder.ToString();
         }
