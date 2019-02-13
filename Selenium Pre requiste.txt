@@ -1,0 +1,20 @@
+Step1: install the latest JAVA --> JDK (which includes JRE).
+Step 2: set the path of JDK and JRE in environment variables. 
+         
+      Go to search and type Environment variables. System properties window will appear. Under that 
+     Click on Environment variables --> System variables -->New --> variable name (mention JAVA_HOME) and variable value (copy the path of jdk from folder
+i.e C:\Program Files\Java\jdk-10.0.2)  --> ok.
+
+Step 3: set the jdk bin path
+
+    Click on Environment variables --> System variables --> Select Path --> click on Edit -->new
+ 
+specify %JAVA_HOME%\bin  (this is same as C:\Program Files\Java\jdk-10.0.2\bin)
+
+Step 4: Download Selenium JAVA JAR files from (https://www.seleniumhq.org/download/)and unzip them
+
+STep 5: Download Eclipse IDE and import existing project files (File --> Import --> general --> Existing file system --> root directory browser (C:\Users\sesa69730\Downloads\IDMS_SmartPumping) and Ok.
+
+Step 6: Add jar files to eclipse --> in Eclipse IDE Go to IDMS project --> Right click --> Build Path --> Configure Build Path --> java Build --> Liraries --> Add external JARS--> select 2 JAR files( C:\Users\sesa69730\Downloads\selenium-java-3.13.0.) and then again Add External JARS and again select lib and select all JAR files.
+
+Step 7: Install Maven and add maven supporting files to imported projects.
