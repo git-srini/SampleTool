@@ -18,5 +18,5 @@ STep 5: Download Eclipse IDE and import existing project files (File --> Import 
 Step 6: Add jar files to eclipse --> in Eclipse IDE Go to IDMS project --> Right click --> Build Path --> Configure Build Path --> java Build --> Liraries --> Add external JARS--> select 2 JAR files( C:\Users\sesa69730\Downloads\selenium-java-3.13.0.) and then again Add External JARS and again select lib and select all JAR files.
 
 Step 7: Install Maven and add maven supporting files to imported projects.
-sriniiiii1234
+sriniiiii1234 sda
 weewr
